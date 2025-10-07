@@ -96,4 +96,4 @@ Both versions implement:
 ```text
 Random Sample from Toronto, Ontario
 Predicted Price: $750,000
-Affordability Score: 0.48 → Unaffordable
+Affordability Score: 0.48 → ✅ Affordable
