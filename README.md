@@ -85,9 +85,9 @@ Both versions implement:
 
 | Score Range | Label |
 | ------------ | ------ |
-| < 0.30 | ✅ Affordable |
-| 0.30–0.50 | ⚠️ At Risk |
-| > 0.50 | 🚫 Unaffordable |
+| < 0.50 | ✅ Affordable |
+| 0.50–0.80 | ⚠️ At Risk |
+| > 0.80 | 🚫 Unaffordable |
 
 ---
 
