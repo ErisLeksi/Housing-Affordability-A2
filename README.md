@@ -1,7 +1,6 @@
 # 🏠 EstateMate: AI-Powered Real Estate Valuation and Affordability Decision Support System
 
 **Course:** Artificial Intelligence for Business Decisions and Transformation  
-**Author:** Eris, MEng Artificial Intelligence and Machine Learning  
 
 ---
 
@@ -63,16 +62,16 @@ Dataset derived from Canadian real estate listings (e.g., Kaggle’s *Canada Rea
 
 ## 🤖 Implementation
 
-Two prototypes were developed:
+Two prototype versions were developed and compared:
 
 | Version | Description | Tools Used |
 | -------- | ------------ | ----------- |
-| **1. Non-Generative AI Model** | Traditional ML workflow: feature engineering, data cleaning, Random Forest regression, and affordability scoring. | Pandas, Scikit-learn, Matplotlib |
-| **2. Generative AI-Assisted Model** | Integrates LLM-based automation for pipeline generation, feature selection, and hyperparameter initialization. | LangChain, Scikit-learn, OpenAI API |
+| **1. Without Generative AI** | Traditional ML workflow: data preprocessing, feature engineering, Random Forest regression, and affordability scoring. | Pandas, Scikit-learn, Matplotlib |
+| **2. With Generative AI** | Integrates **AutoGluon pretrained AutoML models**, leveraging automated hyperparameter optimization, validation handling, and ensemble learning for price prediction. | AutoGluon, Pandas, Python |
 
 Both versions implement:
 - **Train/Validation/Test split:** 80/10/10  
-- **Performance Metrics:** RMSE, MAE, R²  
+- **Performance Metrics:** MAE, MSE, R²  
 - **Affordability Labeling:** Affordable / At Risk / Unaffordable  
 
 ---
